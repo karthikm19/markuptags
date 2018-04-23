@@ -1,6 +1,4 @@
-<div align="center">
-<h2>MarkupTags</h2>
-</div>
+## MarkupTags ##
 
 ### What is MarkupTags? ###
 
@@ -9,8 +7,8 @@ MarkupTags is a very lightweight Javascript library to have a simple HTML tag fo
 ### Requirement ###
 
 * Jquery Library
-* MarkupTags Javascript
-* RangyInput Javascript
+* MarkupTags Javascript (find in src/)
+* RangyInput Javascript (find in src/)
 
 ### Usage ###
 
