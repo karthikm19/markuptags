@@ -1,0 +1,55 @@
+* {
+    font-family: arial;
+    font-size: 14px;
+    margin: 10px;
+}
+
+h3, h5 {
+    margin: 0;
+}
+
+textarea {
+    height: 150px;
+}
+input, textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+
+.markup-tags-container {
+    margin: 50px 0 0 0;
+    width: 500px;
+}
+
+.markup-select-list {
+    border: 1px solid #ccc;
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -moz-border-top-left-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-top-right-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #fff;
+}
+
+.markup-undo-button {
+    margin: 2px 5px;
+    padding: 2px 10px;
+    background-color: #555;
+    border: 1px solid #555;
+    color: #fff;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.pull-right {
+    float: right;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>[DEMO] Markup Tags</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+        <link href="assets/styles.css" rel="stylesheet"/>
+
+        <script src="assets/jquery-1.11.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="assets/jquery-rangyinputs.js"></script>
+        <script src="assets/markup-tags.js"></script>
+    </head>
+    <body>
+        <h3>Markup Tags - Example</h3>
+        
+        <div class="markup-tags-container">
+            <h5>Textarea</h5>
+            <textarea class="markup-tags-demo-1"><strong>Lorem Ipsum/strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</textarea>
+        </div>
+
+        <div class="markup-tags-container">
+            <h5>Text box</h5>
+            <input type="text" class="markup-tags-demo-2" value="Lorem Ipsum is simply dummy text"/>
+        </div>
+        
+        
+        <script>
+            !function ($) {
+                // textarea
+                new MarkupTags($(".markup-tags-demo-1"));
+
+                // text
+                new MarkupTags($(".markup-tags-demo-2"));
+            }(window.jQuery);
+        </script>
+    </body>
+</html>
+
