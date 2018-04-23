@@ -16,6 +16,8 @@ It's very simple to use. Just create an MarkupTags object passing the required e
 
 **Example**
 
+![Demo1 - Textarea](https://raw.githubusercontent.com/karthikm19/markuptags/master/assets/demo1.png)
+
 Create a textarea with class "markup-tags-demo-1"
 
     <textarea class="markup-tags-demo-1"><strong>Lorem Ipsum/strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</textarea>
@@ -31,6 +33,8 @@ Create an object MarkupTags with the class name.
 ---
 
 **Example**
+
+![Demo1 - Textarea](https://raw.githubusercontent.com/karthikm19/markuptags/master/assets/demo2.png)
 
 Create a textbox with class "markup-tags-demo-2"
 
@@ -48,4 +52,3 @@ Create an object MarkupTags with the class name.
 MarkupTags library uses the below:
 
 1. [RangyInputs](https://github.com/timdown/rangyinputs) by [Tim Down](https://github.com/timdown)
-
